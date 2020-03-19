@@ -6,37 +6,34 @@
         <link rel='stylesheet' href='style.css' type= "text/css"/>
     </head>
     <header class="header"> حساب استهلاك الكهرباء          
-        <img src="img/Vision2030.jpg" class="v">
+        
         <nav> 
             
         </nav>
     </header>
     <body>
-        <div>    
-            <label>enter the last wats (one): </label> 
+        <div class="container">    
+            <label>ادخل القراءة السابقة للقاطع الأول: </label> 
             <input class="last-one" type="number" value=""><br>
-            <label>enter the current wats (one):</label>
+            <label>ادخل القراءة الحالية للقاطع الأول:</label>
             <input class="current-one" type="number" value=""><br>
-            <label>enter the last wats (two): </label>
+            <label>ادخل القراءة السابقة للقاطع الثاني: </label>
             <input class="last-two" type="number" value=""><br>
-            <label>enter the current wats (two): </label>
+            <label>ادخل القراءة الحالية للقاطع الثاني: </label>
             <input class="current-two" type="number" value=""> <br>
-            <button class="submit" type="submit">Submit</button> <br>
-
-            <span class="result"></span> <br>
-            <span class="price"></span>
-
+            <button class="submit" type="submit">أحسب</button> <br>
 
         </div>    
+
+        <div class="result-container">
+            <span class="result"></span> <br>
+            <span class="price"></span>
+            <span class="final_price"></span>
+
+        </div>
         <footer class="last">
-            <nav>
-                <a href="">Google</a> |
-                <a href="">Twitter</a> |
-                <a href="">Facebook</a> |
-                <a href="">Linkedin</a> |
-                <a href="">YouTube</a> |
-                <a href="">SnapChat</a>
-            </nav>
+            &copy; Copyright 2020 
+
         </footer>
         <script src="main.js"></script>
     </body>
