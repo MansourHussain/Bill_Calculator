@@ -25,7 +25,7 @@ sub.addEventListener('click', function() {
     let result = document.querySelector('.result');
     let price = document.querySelector('.price');
     let billAmount = document.querySelector('.final_price');
-    result.innerHTML = `كمية استهلاك القاطع الأول:  ${flatOne}<br> كمية استهلاك القاطع الثاني: ${flatTwo}`;
+    result.innerHTML = `كمية استهلاك القاطع الأول:  ${flatOne} واط <br> كمية استهلاك القاطع الثاني: ${flatTwo} واط `;
     price.innerHTML = `قيمة استهلاك القاطع الأول: ${sum1} ريال <br> قيمة استهلاك القاطع الثاني: ${sum2} ريال <br>`;
     //billAmount.innerHTML = ` القيمة الإجمالية للفاتورة: ${final_price} ريال`;
     
