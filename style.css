@@ -85,10 +85,10 @@ input {
 .last{
     color: white;
     background-color: rgb(0, 176, 240);
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    padding: 20px;
+    position: static;
+    width: auto;
+    margin:  0 auto -50px;
+    padding: 8px;
     
 }
 
@@ -98,7 +98,7 @@ input {
         width: auto;
         height: 200px;
         background:#555;
-        font-size: 18px;
+        font-size: 15px;
         color: white;
         border: 30px;
         padding:80px;
@@ -109,10 +109,11 @@ input {
         margin-top: 16px;
         padding: 3px;
         width: auto;
-        font-size: 18px;
+        font-size: 15px;
         color:black;
         background-color: rgb(255, 192, 0);
         border-radius: 25px;
+        margin-bottom: 10px;
     }
    
     }
