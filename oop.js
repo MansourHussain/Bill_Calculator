@@ -11,8 +11,8 @@ function bill() {
     let amount1 = (flatOne)  * 0.18;
     let amount2 = (flatTwo) * 0.18;
     
-    let price1 = (amount1) * 0.05;
-    let price2 = (amount2 ) * 0.05;
+    let price1 = (amount1) * 0.15;
+    let price2 = (amount2 ) * 0.15;
     let sum1 = (amount1 + price1).toFixed(2);
     let sum2 = (amount2 + price2).toFixed(2);
     let final_price = (sum1 + sum2);
