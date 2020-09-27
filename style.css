@@ -51,7 +51,6 @@ img {
     color: white;
     border: 30px;
     padding:80px;
-    
 }
 
 .result-container{
@@ -63,7 +62,7 @@ img {
     background-color: rgb(255, 192, 0);
     border-radius: 25px;
 }
-div button {
+.submit, .reset {
     margin-top: 20px;
     height: 35px;
     width: 100px;
@@ -71,7 +70,7 @@ div button {
     color: #ffffff;
     font-size: 16px;
     border: none;
-    border-radius: 16px;
+    border-radius: 30px;
 }
 
 input {

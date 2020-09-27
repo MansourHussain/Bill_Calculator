@@ -8,5 +8,4 @@ sub.addEventListener('click', function() {
 
     bill();
     
-})
-
+});
